@@ -5,8 +5,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
-import { ConnectButton } from '@rainbow-me/rainbowkit';
-import { LayoutDashboard, Swords, TrendingUp, Coins, BarChart3, User, Wallet, Menu, X } from "lucide-react"
+import { LayoutDashboard, Swords, TrendingUp, Coins, BarChart3, User, Menu, X } from "lucide-react"
 
 const navigation = [
   { name: "Dashboard", href: "/", icon: LayoutDashboard },
@@ -61,7 +60,7 @@ export function Navigation() {
 
           {/* Wallet Connection */}
           <div className="hidden md:flex items-center space-x-4">
-            <ConnectButton />
+            <appkit-button />
           </div>
 
           {/* Mobile menu button */}
@@ -97,10 +96,7 @@ export function Navigation() {
               )
             })}
             <div className="pt-4 pb-2">
-              <Button variant="outline" size="sm" className="w-full glass glass-hover bg-transparent">
-                <Wallet className="w-4 h-4 mr-2" />
-                Connect Wallet
-              </Button>
+              <appkit-button />
             </div>
           </div>
         </div>
