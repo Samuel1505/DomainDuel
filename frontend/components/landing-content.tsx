@@ -114,22 +114,22 @@ export function LandingContent() {
                         <Shield className="h-6 w-6 text-white" />
                       </div>
                     </div>
-                    <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent rounded-2xl" />
+                    <div className="absolute inset-0 bg-linear-to-br from-purple-500/10 to-transparent rounded-2xl" />
                   </div>
 
                   {/* Bottom Card */}
                   <div className="absolute top-32 right-16 w-48 h-32 glass-card border border-indigo-500/30 rounded-2xl transform rotate-3 hover:-rotate-3 transition-transform duration-500">
                     <div className="p-6 flex items-center justify-center">
-                      <div className="w-12 h-12 bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-xl flex items-center justify-center">
+                      <div className="w-12 h-12 bg-linear-to-br from-indigo-400 to-indigo-600 rounded-xl flex items-center justify-center">
                         <TrendingUp className="h-6 w-6 text-white" />
                       </div>
                     </div>
-                    <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 to-transparent rounded-2xl" />
+                    <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 to-transparent rounded-2xl" />
                   </div>
                 </div>
 
                 {/* Glow Effects */}
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-3xl animate-pulse" />
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-3xl animate-pulse" />
               </div>
             </div>
           </div>
