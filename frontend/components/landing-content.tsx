@@ -274,7 +274,7 @@ export function LandingContent() {
                     </li>
                   ))}
                 </ul>
-                <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
+                <Button className="bg-linear-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
                   Start Dueling
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
