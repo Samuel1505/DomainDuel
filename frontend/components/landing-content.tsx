@@ -328,7 +328,7 @@ export function LandingContent() {
                     </li>
                   ))}
                 </ul>
-                <Button className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700">
+                <Button className="bg-linear-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700">
                   Start Farming
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
