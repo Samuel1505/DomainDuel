@@ -168,7 +168,7 @@ export function DerivativesContent() {
     <div className="space-y-8">
       {/* Header */}
       <div className="text-center space-y-4">
-        <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent neon-text">
+        <h1 className="text-4xl md:text-5xl font-bold bg-linear-to-r from-primary via-accent to-primary bg-clip-text text-transparent neon-text">
           Derivatives Trading
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -252,7 +252,7 @@ export function DerivativesContent() {
                   >
                     <div className="flex items-center justify-between mb-3">
                       <div className="flex items-center space-x-3">
-                        <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
+                        <div className="w-10 h-10 bg-linear-to-br from-primary to-accent rounded-lg flex items-center justify-center">
                           {option.type === "call" ? (
                             <TrendingUp className="h-5 w-5 text-white" />
                           ) : (
@@ -364,7 +364,7 @@ export function DerivativesContent() {
                   >
                     <div className="flex items-center justify-between mb-3">
                       <div className="flex items-center space-x-3">
-                        <div className="w-10 h-10 bg-gradient-to-br from-accent to-primary rounded-lg flex items-center justify-center">
+                        <div className="w-10 h-10 bg-linear-to-br from-accent to-primary rounded-lg flex items-center justify-center">
                           {option.type === "call" ? (
                             <TrendingUp className="h-5 w-5 text-white" />
                           ) : (
