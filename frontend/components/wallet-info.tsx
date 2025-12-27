@@ -28,7 +28,7 @@ export function WalletInfo() {
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <h3 className="text-lg font-semibold">Wallet Connected</h3>
-          <Button variant="outline" size="sm" onClick={disconnect}>
+          <Button variant="outline" size="sm" onClick={() => disconnect()}>
             Disconnect
           </Button>
         </div>
