@@ -100,17 +100,17 @@ export function LandingContent() {
                   {/* Top Card */}
                   <div className="absolute top-0 right-0 w-48 h-32 glass-card border border-blue-500/30 rounded-2xl transform rotate-12 hover:rotate-6 transition-transform duration-500">
                     <div className="p-6 flex items-center justify-center">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center">
+                      <div className="w-12 h-12 bg-linear-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center">
                         <Zap className="h-6 w-6 text-white" />
                       </div>
                     </div>
-                    <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent rounded-2xl" />
+                    <div className="absolute inset-0 bg-linear-to-br from-blue-500/10 to-transparent rounded-2xl" />
                   </div>
 
                   {/* Middle Card */}
                   <div className="absolute top-16 right-8 w-48 h-32 glass-card border border-purple-500/30 rounded-2xl transform -rotate-6 hover:rotate-0 transition-transform duration-500">
                     <div className="p-6 flex items-center justify-center">
-                      <div className="w-12 h-12 bg-gradient-to-br from-purple-400 to-purple-600 rounded-xl flex items-center justify-center">
+                      <div className="w-12 h-12 bg-linear-to-br from-purple-400 to-purple-600 rounded-xl flex items-center justify-center">
                         <Shield className="h-6 w-6 text-white" />
                       </div>
                     </div>
