@@ -158,7 +158,7 @@ export function LandingContent() {
               <Card key={index} className="glass-card border-blue-500/20 hover:border-blue-500/40 transition-all duration-300 group">
                 <CardContent className="p-6">
                   <div className="flex items-center justify-between mb-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                    <div className="w-12 h-12 bg-linear-to-br from-blue-500/20 to-purple-500/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
                       <stat.icon className="h-6 w-6 text-blue-400" />
                     </div>
                     <Badge variant="outline" className="border-green-500/30 text-green-400 text-xs">
@@ -191,7 +191,7 @@ export function LandingContent() {
 
           <div className="grid md:grid-cols-3 gap-8 relative">
             {/* Connection Line */}
-            <div className="hidden md:block absolute top-16 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-500/50 via-purple-500/50 to-indigo-500/50" style={{ width: 'calc(100% - 8rem)', margin: '0 4rem' }} />
+            <div className="hidden md:block absolute top-16 left-0 right-0 h-0.5 bg-linear-to-r from-blue-500/50 via-purple-500/50 to-indigo-500/50" style={{ width: 'calc(100% - 8rem)', margin: '0 4rem' }} />
 
             {[
               {
@@ -217,7 +217,7 @@ export function LandingContent() {
                 <Card className="glass-card border-blue-500/20 hover:border-blue-500/40 transition-all duration-300 group">
                   <CardContent className="p-8 text-center">
                     <div className="relative inline-block mb-6">
-                      <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform relative z-10">
+                      <div className="w-16 h-16 bg-linear-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform relative z-10">
                         <step.icon className="h-8 w-8 text-white" />
                       </div>
                       <div className="absolute -top-2 -right-2 w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center text-xs font-bold text-white z-20">
