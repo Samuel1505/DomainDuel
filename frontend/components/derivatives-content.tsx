@@ -168,7 +168,7 @@ export function DerivativesContent() {
     <div className="space-y-8">
       {/* Header */}
       <div className="text-center space-y-4">
-        <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent neon-text">
+        <h1 className="text-4xl md:text-5xl font-bold bg-linear-to-r from-primary via-accent to-primary bg-clip-text text-transparent neon-text">
           Derivatives Trading
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
