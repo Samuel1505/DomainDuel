@@ -661,7 +661,7 @@ export function LandingContent() {
       <section className="relative py-20 section-glow">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="glass-card border border-blue-500/20 rounded-3xl p-12 relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-indigo-500/10" />
+            <div className="absolute inset-0 bg-linear-to-br from-blue-500/10 via-purple-500/10 to-indigo-500/10" />
             <div className="relative z-10">
               <Badge variant="outline" className="glass-card border-blue-500/30 text-blue-300 mb-6">
                 Join Now
