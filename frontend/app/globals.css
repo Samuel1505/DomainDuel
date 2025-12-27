@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
 @import "tailwindcss";
 
 
@@ -10,14 +12,17 @@
   --card-foreground: oklch(0.95 0.01 264);
   --popover: oklch(0.12 0.03 264);
   --popover-foreground: oklch(0.95 0.01 264);
-  --primary: oklch(0.65 0.25 264);
+  --primary: oklch(0.50 0.25 256);
   --primary-foreground: oklch(0.98 0.01 264);
   --secondary: oklch(0.18 0.04 264);
   --secondary-foreground: oklch(0.95 0.01 264);
   --muted: oklch(0.15 0.03 264);
   --muted-foreground: oklch(0.65 0.02 264);
-  --accent: oklch(0.55 0.2 300);
+  --accent: oklch(0.50 0.22 270);
   --accent-foreground: oklch(0.98 0.01 264);
+  --electric-blue: oklch(0.64 0.25 230);
+  --purple-accent: oklch(0.40 0.18 270);
+  --tech-blue: oklch(0.42 0.18 213);
   --destructive: oklch(0.55 0.25 15);
   --destructive-foreground: oklch(0.98 0.01 264);
   --border: oklch(0.2 0.04 264 / 0.3);
@@ -75,7 +80,9 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-geist-sans);
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Source Sans 3', sans-serif;
+  --font-sans: var(--font-body);
   --font-mono: var(--font-geist-mono);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -123,6 +130,11 @@
     @apply bg-background text-foreground;
     background: linear-gradient(135deg, oklch(0.08 0.02 264) 0%, oklch(0.06 0.03 280) 50%, oklch(0.08 0.02 300) 100%);
     min-height: 100vh;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
   }
 }
 
@@ -142,5 +154,26 @@
 
   .neon-text {
     text-shadow: 0 0 10px oklch(0.65 0.25 264 / 0.8);
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent;
+  }
+
+  .section-glow {
+    position: relative;
+  }
+
+  .section-glow::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, oklch(0.50 0.25 256 / 0.15), transparent 70%);
+    pointer-events: none;
+    z-index: 0;
   }
 }
