@@ -362,7 +362,7 @@ export function LandingContent() {
                     </li>
                   ))}
                 </ul>
-                <Button className="bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700">
+                <Button className="bg-linear-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700">
                   Explore Derivatives
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -435,7 +435,7 @@ export function LandingContent() {
             ].map((benefit, index) => (
               <Card key={index} className="glass-card border-blue-500/20 hover:border-blue-500/40 transition-all duration-300 group">
                 <CardContent className="p-6">
-                  <div className={`w-12 h-12 bg-gradient-to-br from-${benefit.color}-500/20 to-${benefit.color}-600/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
+                  <div className={`w-12 h-12 bg-linear-to-br from-${benefit.color}-500/20 to-${benefit.color}-600/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
                     <benefit.icon className={`h-6 w-6 text-${benefit.color}-400`} />
                   </div>
                   <h3 className="text-xl font-bold text-white mb-2">{benefit.title}</h3>
@@ -533,7 +533,7 @@ export function LandingContent() {
                 ].map((activity, index) => (
                   <div key={index} className="flex items-center justify-between p-4 glass-card border border-blue-500/10 rounded-xl hover:border-blue-500/30 transition-colors">
                     <div className="flex items-center space-x-4">
-                      <div className="w-10 h-10 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-full flex items-center justify-center">
+                      <div className="w-10 h-10 bg-linear-to-br from-blue-500/20 to-purple-500/20 rounded-full flex items-center justify-center">
                         <Activity className="h-5 w-5 text-blue-400" />
                       </div>
                       <div>
@@ -572,7 +572,7 @@ export function LandingContent() {
             {["Ethereum", "Polygon", "Arbitrum", "Optimism", "ENS", "Unstoppable", "MetaMask", "WalletConnect"].map((partner, index) => (
               <div key={index} className="glass-card border-blue-500/10 rounded-xl p-6 flex items-center justify-center hover:border-blue-500/30 transition-all duration-300 group">
                 <div className="text-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
+                  <div className="w-12 h-12 bg-linear-to-br from-blue-500/20 to-purple-500/20 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                     <Sparkles className="h-6 w-6 text-blue-400" />
                   </div>
                   <div className="text-white font-semibold">{partner}</div>
