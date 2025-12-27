@@ -364,7 +364,7 @@ export function DerivativesContent() {
                   >
                     <div className="flex items-center justify-between mb-3">
                       <div className="flex items-center space-x-3">
-                        <div className="w-10 h-10 bg-gradient-to-br from-accent to-primary rounded-lg flex items-center justify-center">
+                        <div className="w-10 h-10 bg-linear-to-br from-accent to-primary rounded-lg flex items-center justify-center">
                           {option.type === "call" ? (
                             <TrendingUp className="h-5 w-5 text-white" />
                           ) : (
