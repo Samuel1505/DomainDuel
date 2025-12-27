@@ -32,7 +32,7 @@ export function LandingContent() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center">
         {/* Background Effects */}
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-blue-900/20 to-indigo-900/20" />
+        <div className="absolute inset-0 bg-linear-to-br from-purple-900/20 via-blue-900/20 to-indigo-900/20" />
         <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse" />
         <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-1000" />
 
@@ -48,7 +48,7 @@ export function LandingContent() {
                 <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
                   Trading domains
                   <br />
-                  <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                  <span className="bg-linear-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
                     Beyond Boundaries
                   </span>
                 </h1>
@@ -61,7 +61,7 @@ export function LandingContent() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
                   size="lg"
-                  className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group"
+                  className="bg-linear-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group"
                 >
                   Get Started
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
