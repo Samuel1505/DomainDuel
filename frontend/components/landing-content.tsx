@@ -114,22 +114,22 @@ export function LandingContent() {
                         <Shield className="h-6 w-6 text-white" />
                       </div>
                     </div>
-                    <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent rounded-2xl" />
+                    <div className="absolute inset-0 bg-linear-to-br from-purple-500/10 to-transparent rounded-2xl" />
                   </div>
 
                   {/* Bottom Card */}
                   <div className="absolute top-32 right-16 w-48 h-32 glass-card border border-indigo-500/30 rounded-2xl transform rotate-3 hover:-rotate-3 transition-transform duration-500">
                     <div className="p-6 flex items-center justify-center">
-                      <div className="w-12 h-12 bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-xl flex items-center justify-center">
+                      <div className="w-12 h-12 bg-linear-to-br from-indigo-400 to-indigo-600 rounded-xl flex items-center justify-center">
                         <TrendingUp className="h-6 w-6 text-white" />
                       </div>
                     </div>
-                    <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 to-transparent rounded-2xl" />
+                    <div className="absolute inset-0 bg-linear-to-br from-indigo-500/10 to-transparent rounded-2xl" />
                   </div>
                 </div>
 
                 {/* Glow Effects */}
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-3xl animate-pulse" />
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-3xl animate-pulse" />
               </div>
             </div>
           </div>
@@ -158,7 +158,7 @@ export function LandingContent() {
               <Card key={index} className="glass-card border-blue-500/20 hover:border-blue-500/40 transition-all duration-300 group">
                 <CardContent className="p-6">
                   <div className="flex items-center justify-between mb-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                    <div className="w-12 h-12 bg-linear-to-br from-blue-500/20 to-purple-500/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
                       <stat.icon className="h-6 w-6 text-blue-400" />
                     </div>
                     <Badge variant="outline" className="border-green-500/30 text-green-400 text-xs">
@@ -191,7 +191,7 @@ export function LandingContent() {
 
           <div className="grid md:grid-cols-3 gap-8 relative">
             {/* Connection Line */}
-            <div className="hidden md:block absolute top-16 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-500/50 via-purple-500/50 to-indigo-500/50" style={{ width: 'calc(100% - 8rem)', margin: '0 4rem' }} />
+            <div className="hidden md:block absolute top-16 left-0 right-0 h-0.5 bg-linear-to-r from-blue-500/50 via-purple-500/50 to-indigo-500/50" style={{ width: 'calc(100% - 8rem)', margin: '0 4rem' }} />
 
             {[
               {
@@ -217,7 +217,7 @@ export function LandingContent() {
                 <Card className="glass-card border-blue-500/20 hover:border-blue-500/40 transition-all duration-300 group">
                   <CardContent className="p-8 text-center">
                     <div className="relative inline-block mb-6">
-                      <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform relative z-10">
+                      <div className="w-16 h-16 bg-linear-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform relative z-10">
                         <step.icon className="h-8 w-8 text-white" />
                       </div>
                       <div className="absolute -top-2 -right-2 w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center text-xs font-bold text-white z-20">
@@ -274,7 +274,7 @@ export function LandingContent() {
                     </li>
                   ))}
                 </ul>
-                <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
+                <Button className="bg-linear-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
                   Start Dueling
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -328,7 +328,7 @@ export function LandingContent() {
                     </li>
                   ))}
                 </ul>
-                <Button className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700">
+                <Button className="bg-linear-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700">
                   Start Farming
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -362,7 +362,7 @@ export function LandingContent() {
                     </li>
                   ))}
                 </ul>
-                <Button className="bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700">
+                <Button className="bg-linear-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700">
                   Explore Derivatives
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -435,7 +435,7 @@ export function LandingContent() {
             ].map((benefit, index) => (
               <Card key={index} className="glass-card border-blue-500/20 hover:border-blue-500/40 transition-all duration-300 group">
                 <CardContent className="p-6">
-                  <div className={`w-12 h-12 bg-gradient-to-br from-${benefit.color}-500/20 to-${benefit.color}-600/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
+                  <div className={`w-12 h-12 bg-linear-to-br from-${benefit.color}-500/20 to-${benefit.color}-600/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
                     <benefit.icon className={`h-6 w-6 text-${benefit.color}-400`} />
                   </div>
                   <h3 className="text-xl font-bold text-white mb-2">{benefit.title}</h3>
@@ -533,7 +533,7 @@ export function LandingContent() {
                 ].map((activity, index) => (
                   <div key={index} className="flex items-center justify-between p-4 glass-card border border-blue-500/10 rounded-xl hover:border-blue-500/30 transition-colors">
                     <div className="flex items-center space-x-4">
-                      <div className="w-10 h-10 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-full flex items-center justify-center">
+                      <div className="w-10 h-10 bg-linear-to-br from-blue-500/20 to-purple-500/20 rounded-full flex items-center justify-center">
                         <Activity className="h-5 w-5 text-blue-400" />
                       </div>
                       <div>
@@ -572,7 +572,7 @@ export function LandingContent() {
             {["Ethereum", "Polygon", "Arbitrum", "Optimism", "ENS", "Unstoppable", "MetaMask", "WalletConnect"].map((partner, index) => (
               <div key={index} className="glass-card border-blue-500/10 rounded-xl p-6 flex items-center justify-center hover:border-blue-500/30 transition-all duration-300 group">
                 <div className="text-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
+                  <div className="w-12 h-12 bg-linear-to-br from-blue-500/20 to-purple-500/20 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform">
                     <Sparkles className="h-6 w-6 text-blue-400" />
                   </div>
                   <div className="text-white font-semibold">{partner}</div>
@@ -661,7 +661,7 @@ export function LandingContent() {
       <section className="relative py-20 section-glow">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="glass-card border border-blue-500/20 rounded-3xl p-12 relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-indigo-500/10" />
+            <div className="absolute inset-0 bg-linear-to-br from-blue-500/10 via-purple-500/10 to-indigo-500/10" />
             <div className="relative z-10">
               <Badge variant="outline" className="glass-card border-blue-500/30 text-blue-300 mb-6">
                 Join Now
@@ -675,7 +675,7 @@ export function LandingContent() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
                   size="lg"
-                  className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+                  className="bg-linear-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
                 >
                   Launch App
                   <Rocket className="ml-2 h-5 w-5" />
